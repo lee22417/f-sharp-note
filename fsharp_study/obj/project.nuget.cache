@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gkTvD/5uFsgxV/GiCHIgByahZg8YIwGwOxsjVjb8Jn6n/XodFehNfmG7/Wry2bYfWpy3T3kRz1ZJXwJBta+/Ug==",
+  "success": true,
+  "projectFilePath": "/home/test/workspace/f-sharp-note/fsharp_study/fsharp_study.fsproj",
+  "expectedPackageFiles": [
+    "/home/test/.nuget/packages/fsharp.core/4.7.2/fsharp.core.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
