@@ -1,10 +1,30 @@
 ﻿// Learn more about F# at http://fsharp.org
 
 open System
-open TestFunction
+open AFunctions
+open OneoneFunctions
+
+let helloPrint = 
+    printfn "----------hello_world.fs----------"
+    HelloFunction.hello
+
+let testPrint = 
+    printfn "\n----------test.fx----------"
+    TestFunction.get
+
+let aPrint = 
+    printfn "\n----------chapter_a.fs----------"
+    displayFunction.xresult
+    disFloatFunction.xyresult
+
+let oneonePrint =
+    printfn "\n----------chapter_a.fs----------"
+    OoftFunction.numString |> printfn "%d"
 
 [<EntryPoint>]
 let main argv =
-    get
-    printfn "Hello World from F#!"
+    helloPrint
+    testPrint
+    aPrint
+    oneonePrint
     0 // return an integer exit code

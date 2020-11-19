@@ -1,8 +1,4 @@
-// Learn more about F# at http://fsharp.org
+module HelloFunction
 
-open System
-
-[<EntryPoint>]
-let main argv =
+let hello =
     printfn "Hello World from F#!"
-    0 // return an integer exit code
