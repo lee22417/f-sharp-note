@@ -1,4 +1,3 @@
-// 11xx
 module OneoneFunctions 
 
 open System
