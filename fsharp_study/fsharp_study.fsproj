@@ -10,7 +10,7 @@
     <Compile Include="src/test.fs" />
     <Compile Include="src/chapter_a.fs" />
 
-    <Compile Include="acmicpc/Oneone.fs" />
+    <Compile Include="acmicpc/11xx.fs" />
 
     <Compile Include="Program.fs" />
   </ItemGroup>
