@@ -3,6 +3,7 @@ module OnethreeFunctions
 open System
 
 // 1330 = one three three zero 
+// Compare two values
 // https://docs.microsoft.com/ko-kr/dotnet/fsharp/language-reference/pattern-matching
 module OttzFunction =
     let num = Console.ReadLine().Split()

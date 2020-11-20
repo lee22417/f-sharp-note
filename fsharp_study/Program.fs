@@ -1,38 +1,36 @@
 ﻿// Learn more about F# at http://fsharp.org
 
 open System
-open AFunctions
-open OneoneFunctions
-open OnethreeFunctions
+// src
+//open AFunctions
 
-let helloPrint = 
-    printfn "----------hello_world.fs----------"
-    HelloFunction.hello
+// acmicpc
+//open OneoneFunctions
+//open OnethreeFunctions
+open OnenineFunctions
 
-let testPrint = 
-    printfn "\n----------test.fx----------"
-    TestFunction.get
-
-let aPrint = 
-    printfn "\n----------chapter_a.fs----------"
-    displayFunction.xresult
-    disFloatFunction.xyresult
-
-let oneonePrint =
-    printfn "\n----------11xx.fs----------"
-    OoftFunction.numString |> printfn "%d"
-
-let onethreePrint =
-    printfn "\n----------13xx.fs----------"
-    OttzFunction.result |> printfn "%s"
+// let helloPrint = 
+//     printfn "----------hello_world.fs----------"
+//     HelloFunction.hello
+// let testPrint = 
+//     printfn "\n----------test.fx----------"
+//     TestFunction.get
+// let aPrint = 
+//     printfn "\n----------chapter_a.fs----------"
+//     displayFunction.xresult
+//     disFloatFunction.xyresult
+// let oneonePrint =
+//     printfn "\n----------11xx.fs----------"
+//     OoftFunction.numString |> printfn "%d"
+// let onethreePrint =
+//     printfn "\n----------13xx.fs----------"
+//     OttzFunction.result |> printfn "%s"
+let oneninePrint =
+    printfn "\n----------19xx.fs----------"
+    OnseFunction.run
+    
 
 [<EntryPoint>]
 let main argv =
-    //helloPrint
-    //testPrint
-    //aPrint
-    //oneonePrint
-    onethreePrint
-
-
+    oneninePrint
     0 // return an integer exit code
