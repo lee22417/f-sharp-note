@@ -6,8 +6,9 @@ open System
 // Compare two values
 // https://docs.microsoft.com/ko-kr/dotnet/fsharp/language-reference/pattern-matching
 module OttzFunction =
-    let input = Console.ReadLine().Split()
-                |>Array.map int
+    let input = 
+        Console.ReadLine().Split()
+            |>Array.map int
 
     let compareNum xs=
         match xs with 
@@ -38,7 +39,7 @@ module OtfsFunction =
             | y::ys -> compare (y::lefts) ys
 
     let input = 
-            Console.ReadLine()
+        Console.ReadLine()
             |> Seq.map (string >> int) 
             |> Seq.toList  // change "123" to [1;2;3]
 
