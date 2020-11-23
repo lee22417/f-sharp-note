@@ -11,7 +11,7 @@
     <!-- //<Compile Include="src/chapter_a.fs" /> -->
 
     <!-- <Compile Include="acmicpc/11xx.fs" /> -->
-    <!-- <Compile Include="acmicpc/13xx.fs" /> -->
+    <Compile Include="acmicpc/13xx.fs" />
     <Compile Include="acmicpc/19xx.fs" />
 
     <Compile Include="Program.fs" />

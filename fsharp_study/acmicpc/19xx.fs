@@ -8,9 +8,10 @@ module OnseFunction =
 
     let rec isPrime x i = 
         match i with
-            |ii when ii = 1 -> 1
-            |iii when x%iii = 0 -> 0
-            |y ->  isPrime x (y-1)
+        |a when a = 1 -> 1
+        |b when b = 0 -> 0
+        |c when x%c = 0 -> 0
+        |y ->  isPrime x (y-1)
 
     let getIsPrime x = 
         isPrime x (x-1)
@@ -27,5 +28,5 @@ module OnseFunction =
             |>List.map Convert.ToInt32
 
     let run =
-         cntPrime input |> printfn "%d"
+        cntPrime input |> printfn "%d"
         

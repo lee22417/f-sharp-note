@@ -6,7 +6,7 @@ open System
 
 // acmicpc
 //open OneoneFunctions
-//open OnethreeFunctions
+open OnethreeFunctions
 open OnenineFunctions
 
 // let helloPrint = 
@@ -22,15 +22,15 @@ open OnenineFunctions
 // let oneonePrint =
 //     printfn "\n----------11xx.fs----------"
 //     OoftFunction.numString |> printfn "%d"
-// let onethreePrint =
-//     printfn "\n----------13xx.fs----------"
-//     OttzFunction.result |> printfn "%s"
-let oneninePrint =
-    printfn "\n----------19xx.fs----------"
-    OnseFunction.run
+let onethreePrint =
+    printfn "\n----------13xx.fs----------"
+    OtfsFunction.run
+// let oneninePrint =
+//     printfn "\n----------19xx.fs----------"
+//     OnseFunction.run
     
 
 [<EntryPoint>]
 let main argv =
-    oneninePrint
+    onethreePrint
     0 // return an integer exit code
