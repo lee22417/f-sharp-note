@@ -1,20 +1,20 @@
 # Introduction
 
-## 1. Categories
-### Pure Functional Language
-- only support the functional paradigms
-### Impure Functional Language
-- support the functional paradigms and imperative style programming
+### 1. Categories
+- Pure Functional Language
+  - only support the functional paradigms
+- Impure Functional Language
+  - support the functional paradigms and imperative style programming
 <br><br>
 
-## 2. Characteristics
+### 2. Characteristics
 - concept of mathematical functions -> use conditional expressions and recursion 
 - higher-order functions, lazy evaluation features
 - not support flow controls (loop, conditional statements)
 - support Abstraction, Encapsulation, Inheritance, and Polymorphism (like OOP)
 <br><br>
 
-## 3. Advantage
+### 3. Advantage
 - Bugs-Free Code (not support state)
 - Efficient Parallel Programming (no mutable state, no state-change issues)
 - Efficiency (independent units can run concurrently)
@@ -22,10 +22,11 @@
 - Lazy Evaluation (support Lazy Functional Constructs)
 <br><br>
 
-## 4. Disadvantage
+### 4. Disadvantage
 - require larger memory (make new objects for every actions)
+<br><br>
 
-## 5. Compare with OOP
+### 5. Compare with OOP
 ||Functional Programming|Object-oriented Programming|
 |---|------|------|
 |Data|Immutable|Mutable|
