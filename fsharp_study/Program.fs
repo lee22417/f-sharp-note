@@ -6,8 +6,9 @@ open System
 
 // acmicpc
 //open OneoneFunctions
-open OnethreeFunctions
-open OnenineFunctions
+// open OnethreeFunctions
+// open OnenineFunctions
+open OnefivesevenFunctions
 
 // let helloPrint = 
 //     printfn "----------hello_world.fs----------"
@@ -19,18 +20,21 @@ open OnenineFunctions
 //     printfn "\n----------chapter_a.fs----------"
 //     displayFunction.xresult
 //     disFloatFunction.xyresult
-// let oneonePrint =
+// let ooPrint =
 //     printfn "\n----------11xx.fs----------"
 //     OoftFunction.numString |> printfn "%d"
-let onethreePrint =
-    printfn "\n----------13xx.fs----------"
-    OtfsFunction.run
-// let oneninePrint =
+// let otPrint =
+//     printfn "\n----------13xx.fs----------"
+//     OtfsFunction.run
+// let onPrint =
 //     printfn "\n----------19xx.fs----------"
 //     OnseFunction.run
-    
+let ofsPrint =
+    printfn "\n----------157xx.fs----------"
+    OfszzFunction.run
+
 
 [<EntryPoint>]
 let main argv =
-    onethreePrint
+    ofsPrint
     0 // return an integer exit code
