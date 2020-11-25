@@ -2,7 +2,6 @@
 
 ### 1. Recursion
 - Code 
-<br>
 ```
 let rec recursiveFunction1 xs =
     match xs with 
@@ -28,7 +27,6 @@ RecursiveFunction2 result : 15
 
 ### 2. Higher Order Functions
 - Code 
-<br>
 ```
 let func1 x = x+1
 let func2 x = x*2
@@ -48,7 +46,6 @@ printfn "%d" (func3 1)
     - Single variable can store multiple data types
     - Easy to debug
 - Code 
-<br>
 ```
 
 ```
