@@ -40,9 +40,24 @@ printfn "%d" (func3 1)
 ```fsharp
 3
 ```
+<br>
 
+### 3. Polymorphism
+- Advantage
+    - Reuse the codes, save time
+    - Single variable can store multiple data types
+    - Easy to debug
+- Code 
+<br>
+```fsharp
 
+```
+- Result
+```fsharp
+
+```
 <br><br>
+
 # Reference
 https://www.tutorialspoint.com/functional_programming/index.htm
 <br>
