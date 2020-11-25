@@ -13,7 +13,7 @@
 |uint64|8 bytes|0 to 18,446,744,073,709,551,615|42UL|64-bit unsigned integer|
 |bigint|At least 4 bytes|any integer|42I|arbitrary precision integer|
 
-<br><br>
+<br>
 
 ### 2. Floating Point Data Type
 |F# Type|Size|Range|Example|Remarks|
@@ -23,7 +23,7 @@
 |decimal|16 bytes|±1.0e-28 to ±7.9e28|42.0M|128-bit signed floating point number (28-29 significant digits)|
 |BigRational|At least 4 bytes|Any rational number|42N|Arbitrary precision rational number (requires a reference to FSharp.PowerPack.dll.)|
 
-<br><br>
+<br>
 
 ### 3. Text Data Type
 |F# Type|Size|Range|Example|Remarks|
@@ -31,7 +31,7 @@
 |char|2 bytes|U+0000 to U+ffff|'x', '\t'|Single unicode characters|
 |string|20 + (2 * string's length) bytes|0 to about 2 billion characters|"Hello"|Unicode text|
 
-<br><br>
+<br>
 
 ### 4. Other Data Type
 |F# Type|Size|Range|Example|Remarks|
