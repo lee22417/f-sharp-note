@@ -13,6 +13,7 @@
 |Quotation|\\"|
 |Apostrophe|\\'|
 |Unicode character|\uXXXX or \UXXXXXXXX (X = hexadecimal digit)|
+
 <br>
 
 ### 2. Ignoring the escape sequence
@@ -44,6 +45,7 @@
 - map
 - mapi
 - replicate
+
 <br><br>
 
 # Reference
