@@ -38,7 +38,8 @@
 |Iterate Collection Data|Recursion concept|Loop concept|
 |Execution order of statements|Not important|Very important|
 |Support Abstraction|Abstraction over Data, Abstraction over Behavior|Abstraction over Data
-----
+
+
 <br><br>
 # Reference
 https://www.tutorialspoint.com/functional_programming/functional_programming_introduction.htm
