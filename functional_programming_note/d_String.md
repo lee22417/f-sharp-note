@@ -22,12 +22,12 @@
 - Verbatim string = a string literal is preceded by the @ symbol
     - All escape sequence are ignored, except two quotation mark characters that are interpreted as one quotation mark characters
 - Code
-```fsharp
+```
     let str = @"<fruit name = ""Apple"" color = ""Apple color"">"
     printfn "%s" str
 ```
 - Result
-```fsharp
+```
     <fruit name = "Apple" color = "Apple color">
 ```
 <br>

@@ -3,7 +3,7 @@
 ### 1. Recursion
 - Code 
 <br>
-```fsharp
+```
 let rec recursiveFunction1 xs =
     match xs with 
     |[] -> 0
@@ -20,7 +20,7 @@ printfn "RecursiveFunction1 result : %d" recursiveFunction1 intList
 printfn "RecursiveFunction2 result : %d" recursiveFunction1 intList 0
 ```
 - Result
-```fsharp
+```
 RecursiveFunction1 result : 15
 RecursiveFunction2 result : 15
 ```
@@ -29,7 +29,7 @@ RecursiveFunction2 result : 15
 ### 2. Higher Order Functions
 - Code 
 <br>
-```fsharp
+```
 let func1 x = x+1
 let func2 x = x*2
 let func3 x = func1 (func2 x)
@@ -37,7 +37,7 @@ let func3 x = func1 (func2 x)
 printfn "%d" (func3 1)
 ```
 - Result
-```fsharp
+```
 3
 ```
 <br>
@@ -49,11 +49,11 @@ printfn "%d" (func3 1)
     - Easy to debug
 - Code 
 <br>
-```fsharp
+```
 
 ```
 - Result
-```fsharp
+```
 
 ```
 <br><br>
