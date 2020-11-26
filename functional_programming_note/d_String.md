@@ -27,7 +27,7 @@
     let str = @"<fruit name = ""Apple"" color = ""Apple color"">"
     printfn "%s" str
 ```
-- Result
+- Output
 ```
     <fruit name = "Apple" color = "Apple color">
 ```
