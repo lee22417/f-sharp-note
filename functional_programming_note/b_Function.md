@@ -18,7 +18,7 @@ let intList = [1;2;3;4;5]
 printfn "RecursiveFunction1 result : %d" recursiveFunction1 intList
 printfn "RecursiveFunction2 result : %d" recursiveFunction1 intList 0
 ```
-- Result
+- Output
 ```
 RecursiveFunction1 result : 15
 RecursiveFunction2 result : 15
@@ -34,7 +34,7 @@ let func3 x = func1 (func2 x)
 
 printfn "%d" (func3 1)
 ```
-- Result
+- Output
 ```
 3
 ```
@@ -49,7 +49,7 @@ printfn "%d" (func3 1)
 ```
 
 ```
-- Result
+- Output
 ```
 
 ```
