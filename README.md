@@ -11,5 +11,5 @@
 - Command
 
 ```
-(add here)
+dotnet run
 ```
