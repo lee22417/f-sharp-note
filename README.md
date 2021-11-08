@@ -1,13 +1,13 @@
-# f-sharp-note
-## Learning F#
+## f-sharp-note
+- Learning F#
 
-# Env & Tools
+## Env & Tools
   - Ubunto 20
   - Visual Studio Code 
     - plugin (C#, lonide-fsharp, lonide-Paket, lonide-FAKE)
   - F#
   
-# Run
+## Run
 - Command
 
 ```
